@@ -185,6 +185,7 @@ const style = StyleSheet.create({
     height: 350,
     justifyContent: "center",
     alignItems: "center",
+    top: 50,
   },
   carousel: {
     flex: 1,
@@ -211,7 +212,8 @@ const style = StyleSheet.create({
     right: 15,
   },
   moreInfo: {
-    backgroundColor: "#FF",
+    backgroundColor: "#FFF",
+    marginTop: 100,
     width: screenWidth,
     height: screenHeight,
     borderTopRightRadius: 20,
